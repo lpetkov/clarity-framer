@@ -1,2 +1,6 @@
 # clarity-framer
- The clarity-react components integrated in Framer 
+ The [clarity-react] (https://github.com/EMCECS/clarity-react) components integrated in [Framer] (https://framer.com)
+
+ 
+
+
