@@ -1,0 +1,22 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"author": "Lachezar Petkov",
+	"dependencies": {
+		"@framer/framer.default": "^1.77.0",
+		"axios": "^0.20.0"
+	},
+	"framer": {
+		"id": "e5a88ccf-df5f-4f1a-8654-2eb68da32974",
+		"displayName": "Clarity"
+	},
+	"name": "@framer/vmware.clarity",
+	"version": "1.2.0"
+}

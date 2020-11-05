@@ -1,0 +1,4018 @@
+{
+  "root" : {
+    "__class" : "RootNode",
+    "children" : [
+      {
+        "__class" : "PageNode",
+        "children" : [
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__action" : {
+                  "type" : "string",
+                  "value" : "dsadsadsa"
+                },
+                "$control__alertAppLevel" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__alertIsCloseable" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__alertSize" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__alertType" : {
+                  "type" : "enum",
+                  "value" : "danger"
+                },
+                "$control__hasAction" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__icon" : {
+                  "type" : "string",
+                  "value" : "error"
+                },
+                "$control__messagesInAlert" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "gRjlrgAX4",
+                      "type" : "string",
+                      "value" : "Alert message"
+                    }
+                  ]
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.25729166666666664,
+                "centerAnchorY" : 0.059999999999999998,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Alert.tsx_Alert",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "LJkCQ4O4p"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 52,
+                "heightType" : 0,
+                "id" : "TIlnTw7Jp",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 32,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 28,
+                "visible" : true,
+                "width" : 677,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__colors" : {
+                  "type" : "enum",
+                  "value" : "purple"
+                },
+                "$control__number" : {
+                  "type" : "number",
+                  "value" : 1
+                },
+                "$control__status" : {
+                  "type" : "enum",
+                  "value" : "info"
+                },
+                "$control__statusOrColor" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.31354166666666666,
+                "centerAnchorY" : 0.13055555555555556,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Badge.tsx_Badge",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "tPIGjjCI8"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 21,
+                "heightType" : 0,
+                "id" : "HYaDJnSkz",
+                "intrinsicHeight" : 128,
+                "intrinsicWidth" : 240,
+                "left" : 444,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 107,
+                "visible" : true,
+                "width" : 15,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__cardBody" : {
+                  "type" : "string",
+                  "value" : "Card content can contain text, links, images, data visualizations, lists and more."
+                },
+                "$control__cardButtonLeft" : {
+                  "type" : "string",
+                  "value" : "Left Button"
+                },
+                "$control__cardButtonLeftLink" : {
+                  "type" : "eventhandler"
+                },
+                "$control__cardButtonRight" : {
+                  "type" : "string",
+                  "value" : "Right Button"
+                },
+                "$control__cardButtonRightLink" : {
+                  "type" : "eventhandler"
+                },
+                "$control__cardHasBody" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasFooter" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasHeader" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasImage" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasTitle" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHeader" : {
+                  "type" : "string",
+                  "value" : "Card header"
+                },
+                "$control__cardImageUrl" : {
+                  "type" : "file"
+                },
+                "$control__cardIsClickable" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardTitle" : {
+                  "type" : "string",
+                  "value" : "Card title"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.14270833333333333,
+                "centerAnchorY" : 0.30722222222222223,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Card.tsx_Card",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "L_n9jav6e"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 361,
+                "heightType" : 0,
+                "id" : "Cg6f1y_dK",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 32,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 96,
+                "visible" : true,
+                "width" : 347,
+                "widthType" : 0
+              },
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.34097222222222223,
+                "centerAnchorY" : 0.17999999999999999,
+                "children" : [
+                  {
+                    "__class" : "CodeComponentNode",
+                    "$control__badgeNumber" : {
+                      "type" : "number",
+                      "value" : 1
+                    },
+                    "$control__badgeStatus" : {
+                      "type" : "enum",
+                      "value" : "info"
+                    },
+                    "$control__hasBadge" : {
+                      "type" : "boolean",
+                      "value" : true
+                    },
+                    "$control__hasStatus" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__isClickable" : {
+                      "type" : "boolean",
+                      "value" : false
+                    },
+                    "$control__labelStatus" : {
+                      "type" : "enum",
+                      "value" : "info"
+                    },
+                    "$control__text" : {
+                      "type" : "string",
+                      "value" : "Label text"
+                    },
+                    "aspectRatio" : null,
+                    "bottom" : 0,
+                    "centerAnchorX" : 0.5,
+                    "centerAnchorY" : 0.5,
+                    "clip" : true,
+                    "codeComponentIdentifier" : ".\/Label.tsx_Label",
+                    "codeComponentPackageVersion" : "1.77.0",
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "duplicatedFrom" : [
+                      "Aol4qSm50"
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImageOriginalName" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 24,
+                    "heightType" : 0,
+                    "id" : "J_zoT09xg",
+                    "intrinsicHeight" : null,
+                    "intrinsicWidth" : null,
+                    "left" : 0,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "YrhhMh8R7",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "right" : 0,
+                    "rotation" : 0,
+                    "top" : 0,
+                    "visible" : true,
+                    "width" : 94,
+                    "widthType" : 0
+                  }
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "framePreset" : null,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 24,
+                "heightType" : 0,
+                "id" : "YrhhMh8R7",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : 444,
+                "locked" : false,
+                "name" : null,
+                "onTap" : [
+                  {
+                    "actionIdentifier" : "framer\/useNavigate",
+                    "controls" : {
+                      "animation" : {
+                        "type" : "transition",
+                        "value" : {
+                          "damping" : 60,
+                          "delay" : 0,
+                          "ease" : [
+                            0.44,
+                            0,
+                            0.56000000000000005,
+                            1
+                          ],
+                          "mass" : 1,
+                          "stiffness" : 500,
+                          "type" : "spring"
+                        }
+                      },
+                      "appearsFrom" : {
+                        "type" : "segmentedenum",
+                        "value" : "right"
+                      },
+                      "backdropColor" : {
+                        "type" : "color",
+                        "value" : "rgba(4,4,15,.4)"
+                      },
+                      "target" : {
+                        "type" : "componentinstance",
+                        "value" : "p9bPTQ3kg"
+                      },
+                      "transition" : {
+                        "type" : "enum",
+                        "value" : "modal"
+                      },
+                      "type" : {
+                        "type" : "segmentedenum",
+                        "value" : "next"
+                      }
+                    },
+                    "identifier" : "5948c2a8-e58d-4848-87c7-f1a9ed8c9412"
+                  }
+                ],
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 150,
+                "visible" : true,
+                "width" : 94,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__buttonsArray" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "nhYG6ymkS",
+                      "type" : "string",
+                      "value" : "Radio Button 1"
+                    },
+                    {
+                      "id" : "DTPk7B0ZF",
+                      "type" : "string",
+                      "value" : "Radio Button 2"
+                    }
+                  ]
+                },
+                "$control__defaultSelected" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__disabled" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__groupHasHelper" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__groupHasLabel" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__groupLabel" : {
+                  "type" : "string",
+                  "value" : "Radio button group label"
+                },
+                "$control__helperText" : {
+                  "type" : "string",
+                  "value" : "Radio button group helper"
+                },
+                "$control__inline" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.4670138888888889,
+                "centerAnchorY" : 0.13666666666666666,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/RadioButtonGroup.tsx_RadioButtonGroup",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "c4kIYYY3D"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 78,
+                "heightType" : 0,
+                "id" : "uIRdLLy_L",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 607,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 84,
+                "visible" : true,
+                "width" : 131,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__items" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "lFAWyqF74",
+                      "type" : "string",
+                      "value" : "Framer"
+                    },
+                    {
+                      "id" : "SVwrMj1Cq",
+                      "type" : "string",
+                      "value" : "Item 2"
+                    }
+                  ]
+                },
+                "$control__mainLabel" : {
+                  "type" : "string",
+                  "value" : "Dropdown label"
+                },
+                "$control__onClick" : {
+                  "type" : "eventhandler"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.37361111111111112,
+                "centerAnchorY" : 0.29166666666666669,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Dropdown.tsx_Dropdown",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "luHU6JMwt"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 51,
+                "heightType" : 0,
+                "id" : "BpeGu_WsA",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 442,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 237,
+                "visible" : true,
+                "width" : 192,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__shape" : {
+                  "type" : "string",
+                  "value" : "home"
+                },
+                "$control__size" : {
+                  "type" : "segmentedenum",
+                  "value" : "36"
+                },
+                "$control__status" : {
+                  "type" : "enum",
+                  "value" : ""
+                },
+                "$control__style" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.48576388888888888,
+                "centerAnchorY" : 0.28611111111111109,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Icon.tsx_Icon",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "foxJ1eIc7"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 37,
+                "heightType" : 0,
+                "id" : "jqrsM2FA0",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 679,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 239,
+                "visible" : true,
+                "width" : 41,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__errorHelperText" : {
+                  "type" : "string",
+                  "value" : "Error helper text"
+                },
+                "$control__hasHelperText" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__hasIcon" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__hasLabel" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__helperText" : {
+                  "type" : "string",
+                  "value" : "Helper text"
+                },
+                "$control__icon" : {
+                  "type" : "string",
+                  "value" : "search"
+                },
+                "$control__isDisabled" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__isError" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__isNumber" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__isPassword" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__labelText" : {
+                  "type" : "string",
+                  "value" : "Label text"
+                },
+                "$control__placeholder" : {
+                  "type" : "string",
+                  "value" : "Placeholder text"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.37638888888888888,
+                "centerAnchorY" : 0.38777777777777778,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Input.tsx_Input",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "zkbk7G674"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 50,
+                "heightType" : 0,
+                "id" : "wdIjSQuYx",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 442,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 324,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__defaultHelperText" : {
+                  "type" : "string",
+                  "value" : "HelperText"
+                },
+                "$control__error" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__errorHelperText" : {
+                  "type" : "string",
+                  "value" : "Error message"
+                },
+                "$control__itemsArray" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "f2TPiUk8S",
+                      "type" : "string",
+                      "value" : "Radio button label"
+                    },
+                    {
+                      "id" : "i_cDnu89d",
+                      "type" : "string",
+                      "value" : "Radio button label 2"
+                    },
+                    {
+                      "id" : "i79mHHEnh",
+                      "type" : "string",
+                      "value" : "Radio button label 3"
+                    }
+                  ]
+                },
+                "$control__label" : {
+                  "type" : "string",
+                  "value" : "Selectbox label"
+                },
+                "$control__onOption1Select" : {
+                  "type" : "eventhandler",
+                  "value" : [
+                    {
+                      "actionIdentifier" : "framer\/useNavigate",
+                      "controls" : {
+                        "animation" : {
+                          "type" : "transition",
+                          "value" : {
+                            "damping" : 60,
+                            "delay" : 0,
+                            "ease" : [
+                              0.44,
+                              0,
+                              0.56000000000000005,
+                              1
+                            ],
+                            "mass" : 1,
+                            "stiffness" : 500,
+                            "type" : "spring"
+                          }
+                        },
+                        "appearsFrom" : {
+                          "type" : "segmentedenum",
+                          "value" : "right"
+                        },
+                        "backdropColor" : {
+                          "type" : "color",
+                          "value" : "rgba(4,4,15,.4)"
+                        },
+                        "target" : {
+                          "type" : "componentinstance",
+                          "value" : "rcy4c5IVc"
+                        },
+                        "transition" : {
+                          "type" : "enum",
+                          "value" : "instant"
+                        },
+                        "type" : {
+                          "type" : "segmentedenum",
+                          "value" : "next"
+                        }
+                      },
+                      "identifier" : "98a706da-6d04-452f-931f-861e05a99ccf"
+                    }
+                  ]
+                },
+                "$control__onOption2Select" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onOption3Select" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onOption4Select" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onOption5Select" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onOption6Select" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onOption7Select" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onOption8Select" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onOption9Select" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onOption10Select" : {
+                  "type" : "eventhandler"
+                },
+                "$control__showDefaultSelect" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : 392,
+                "centerAnchorX" : 0.39861111111111114,
+                "centerAnchorY" : 0.51222222222222225,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/SelectBox.tsx_SelectBox",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "jpLtdt96l"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 94,
+                "heightType" : 0,
+                "id" : "KxL8pwC9B",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 448,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 252,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__alignment" : {
+                  "type" : "segmentedenum",
+                  "value" : "left"
+                },
+                "$control__color" : {
+                  "type" : "enum",
+                  "value" : "yellow"
+                },
+                "$control__note" : {
+                  "type" : "string",
+                  "value" : "Link from each item to a frame?"
+                },
+                "$control__onClick" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseEnter" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseLeave" : {
+                  "type" : "eventhandler"
+                },
+                "$control__preview" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__smallFont" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : 281,
+                "centerAnchorX" : 0.39652777777777776,
+                "centerAnchorY" : 0.63722222222222225,
+                "clip" : true,
+                "codeComponentIdentifier" : "@framer\/framer.default\/.\/Notes.tsx_Notes",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "iNcBcIQOl",
+                  "VHOUWRnt9",
+                  "DbUeKlY7w",
+                  "rCb5kDHMg"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 91,
+                "heightType" : 0,
+                "id" : "AxYLiA3VY",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 442,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 258,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__alignment" : {
+                  "type" : "segmentedenum",
+                  "value" : "left"
+                },
+                "$control__color" : {
+                  "type" : "enum",
+                  "value" : "yellow"
+                },
+                "$control__note" : {
+                  "type" : "string",
+                  "value" : "how do I trigger the progress to start \/ animate ?"
+                },
+                "$control__onClick" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseEnter" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseLeave" : {
+                  "type" : "eventhandler"
+                },
+                "$control__preview" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__smallFont" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : 95,
+                "centerAnchorX" : 0.63611111111111107,
+                "centerAnchorY" : 0.84388888888888891,
+                "clip" : true,
+                "codeComponentIdentifier" : "@framer\/framer.default\/.\/Notes.tsx_Notes",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "iNcBcIQOl",
+                  "VHOUWRnt9",
+                  "DbUeKlY7w",
+                  "rCb5kDHMg",
+                  "AxYLiA3VY"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 91,
+                "heightType" : 0,
+                "id" : "wYj3x6Aor",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 395,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 258,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__alignment" : {
+                  "type" : "segmentedenum",
+                  "value" : "left"
+                },
+                "$control__color" : {
+                  "type" : "enum",
+                  "value" : "yellow"
+                },
+                "$control__note" : {
+                  "type" : "string",
+                  "value" : "TODO: pagination\n"
+                },
+                "$control__onClick" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseEnter" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseLeave" : {
+                  "type" : "eventhandler"
+                },
+                "$control__preview" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__smallFont" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.63958333333333328,
+                "centerAnchorY" : 0.44944444444444442,
+                "clip" : true,
+                "codeComponentIdentifier" : "@framer\/framer.default\/.\/Notes.tsx_Notes",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "iNcBcIQOl",
+                  "VHOUWRnt9",
+                  "DbUeKlY7w",
+                  "rCb5kDHMg",
+                  "AxYLiA3VY",
+                  "wYj3x6Aor"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 91,
+                "heightType" : 0,
+                "id" : "LAoBDB9K4",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 390,
+                "rotation" : 0,
+                "top" : 359,
+                "visible" : true,
+                "width" : 258,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__pageOrInline" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__size" : {
+                  "type" : "segmentedenum",
+                  "value" : "lg"
+                },
+                "$control__text" : {
+                  "type" : "string",
+                  "value" : "Loading..."
+                },
+                "aspectRatio" : null,
+                "bottom" : 330,
+                "centerAnchorX" : 0.578125,
+                "centerAnchorY" : 0.59388888888888891,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Spinner.tsx_Spinner",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "VYbGot9Jk"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 71,
+                "heightType" : 0,
+                "id" : "txnca9_qt",
+                "intrinsicHeight" : 128,
+                "intrinsicWidth" : 240,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 572,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 71,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__description" : {
+                  "type" : "string",
+                  "value" : "A short confirmation message not to exceed 156 characters"
+                },
+                "$control__onTap" : {
+                  "type" : "eventhandler"
+                },
+                "aspectRatio" : null,
+                "bottom" : 156,
+                "centerAnchorX" : 0.24791666666666667,
+                "centerAnchorY" : 0.80000000000000004,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Snackbar.tsx_Snackbar",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "N7Li77pKt"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 48,
+                "heightType" : 0,
+                "id" : "A4gHGTAle",
+                "intrinsicHeight" : 48,
+                "intrinsicWidth" : 500,
+                "left" : 107,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 500,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__bodyText" : {
+                  "type" : "string",
+                  "value" : "Body text"
+                },
+                "$control__iconSize" : {
+                  "type" : "segmentedenum",
+                  "value" : "16"
+                },
+                "$control__toolTipDirection" : {
+                  "type" : "enum",
+                  "value" : "top-right"
+                },
+                "$control__toolTipSize" : {
+                  "type" : "enum",
+                  "value" : "md"
+                },
+                "$control__tooltipText" : {
+                  "type" : "string",
+                  "value" : "Tooltip text"
+                },
+                "aspectRatio" : null,
+                "bottom" : 365,
+                "centerAnchorX" : 0.11145833333333334,
+                "centerAnchorY" : 0.57444444444444442,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Tooltip.tsx_Tooltip",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "e3uhyZpMe"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 36,
+                "heightType" : 0,
+                "id" : "Q_DHZp6ib",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 115,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 91,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__isLabeled" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__progress" : {
+                  "type" : "number",
+                  "value" : 50
+                },
+                "$control__status" : {
+                  "type" : "segmentedenum",
+                  "value" : "normal"
+                },
+                "aspectRatio" : null,
+                "bottom" : 199,
+                "centerAnchorX" : 0.68541666666666667,
+                "centerAnchorY" : 0.76888888888888884,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/ProgressBar.tsx_ProgressBar",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "JVtOMgGFq"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 18,
+                "heightType" : 0,
+                "id" : "mjnkz3Kmt",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 253,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 400,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__menuItemsArray" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "Ok5BoWuZg",
+                      "type" : "string",
+                      "value" : "dsadas"
+                    },
+                    {
+                      "id" : "oerHmHold",
+                      "type" : "string",
+                      "value" : "dsadsa"
+                    },
+                    {
+                      "id" : "G7vUuea90",
+                      "type" : "string",
+                      "value" : "dsdas"
+                    },
+                    {
+                      "id" : "Up3aPnjem",
+                      "type" : "string",
+                      "value" : "Radio button"
+                    },
+                    {
+                      "id" : "dtHrwXKKv",
+                      "type" : "string",
+                      "value" : "Radio button"
+                    },
+                    {
+                      "id" : "b5_hMBIWI",
+                      "type" : "string",
+                      "value" : "Radio button"
+                    },
+                    {
+                      "id" : "kt822p70z",
+                      "type" : "string",
+                      "value" : "Radio button"
+                    },
+                    {
+                      "id" : "x4Uha4CfK",
+                      "type" : "string",
+                      "value" : "Radio button"
+                    }
+                  ]
+                },
+                "aspectRatio" : null,
+                "bottom" : 245,
+                "centerAnchorX" : 0.87986111111111109,
+                "centerAnchorY" : 0.55777777777777782,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/VerticalNav.tsx_VerticalNav",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "g5q5bMxdm"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 306,
+                "heightType" : 0,
+                "id" : "vA2tMDdJG",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 53,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 240,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__colors" : {
+                  "type" : "enum",
+                  "value" : "purple"
+                },
+                "$control__number" : {
+                  "type" : "number",
+                  "value" : 1
+                },
+                "$control__status" : {
+                  "type" : "enum",
+                  "value" : "info"
+                },
+                "$control__statusOrColor" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : 372,
+                "centerAnchorX" : 0.15868055555555555,
+                "centerAnchorY" : 0.57055555555555559,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Badge.tsx_Badge",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "v8p6zq650"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 29,
+                "heightType" : 0,
+                "id" : "BlCzhdZxQ",
+                "intrinsicHeight" : 128,
+                "intrinsicWidth" : 240,
+                "left" : 219,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 19,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__buttonSize" : {
+                  "type" : "enum",
+                  "value" : null
+                },
+                "$control__click" : {
+                  "type" : "eventhandler"
+                },
+                "$control__disabled" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__link" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__onClick" : {
+                  "type" : "eventhandler"
+                },
+                "$control__primary" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__state" : {
+                  "type" : "enum",
+                  "value" : "info"
+                },
+                "$control__text" : {
+                  "type" : "string",
+                  "value" : "Hello World"
+                },
+                "aspectRatio" : null,
+                "bottom" : 38,
+                "centerAnchorX" : 0.10902777777777778,
+                "centerAnchorY" : 0.93444444444444441,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Button.tsx_Button",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "NwvUxfLGy"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 42,
+                "heightType" : 0,
+                "id" : "kFk3v__3I",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 91,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 132,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__checked" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__disabled" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__error" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__formLabel" : {
+                  "type" : "string",
+                  "value" : "Checkbox dsada"
+                },
+                "$control__groupHasHelper" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__groupHasLabel" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__groupLabel" : {
+                  "type" : "string",
+                  "value" : "Checkbox group label"
+                },
+                "$control__helperText" : {
+                  "type" : "string",
+                  "value" : "Radio button group helper"
+                },
+                "$control__isChecked" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__itemsArray" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "uSTr_uW00",
+                      "type" : "string",
+                      "value" : "Checkbox label"
+                    }
+                  ]
+                },
+                "$control__label" : {
+                  "type" : "string",
+                  "value" : "dsdas"
+                },
+                "$control__onCheck" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onUncheck" : {
+                  "type" : "eventhandler"
+                },
+                "$control__showFormLabel" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__showHelperText" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__showLabel" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : 230,
+                "centerAnchorX" : 0.14374999999999999,
+                "centerAnchorY" : 0.69555555555555559,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Checkbox.tsx_Checkbox",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "Mj4O_OK74"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 88,
+                "heightType" : 0,
+                "id" : "HhUCjQH_y",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 107,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__checked" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__disabled" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__disabledOrEnabled" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__hasLabel" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__label" : {
+                  "type" : "string",
+                  "value" : "Toggle label"
+                },
+                "$control__onToggleOff" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onToggleOn" : {
+                  "type" : "eventhandler"
+                },
+                "$control__showLabel" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__toggled" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : 349,
+                "centerAnchorX" : 0.2326388888888889,
+                "centerAnchorY" : 0.59666666666666668,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Toggle.tsx_Toggle",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "uc0noCfzo"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 28,
+                "heightType" : 0,
+                "id" : "l2biYASuf",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 316,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 38,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__date" : {
+                  "type" : "string",
+                  "value" : "MM\/DD\/YYYY"
+                },
+                "$control__hasCustomDate" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "aspectRatio" : null,
+                "bottom" : -113,
+                "centerAnchorX" : 0.88472222222222219,
+                "centerAnchorY" : 1.0144444444444445,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/DatePicker.tsx_DatePicker",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "ido8IvZln"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "hTFqD2unv",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 66,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__columnItems" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "ElcLhYYQf",
+                      "type" : "string",
+                      "value" : "Column 1"
+                    },
+                    {
+                      "id" : "ZqctyrVVT",
+                      "type" : "string",
+                      "value" : "Column 2"
+                    },
+                    {
+                      "id" : "ZIDvaO9ZU",
+                      "type" : "string",
+                      "value" : "Column 3"
+                    },
+                    {
+                      "id" : "vImGe39Bp",
+                      "type" : "string",
+                      "value" : "Column 4"
+                    },
+                    {
+                      "id" : "ZOJhGj6pX",
+                      "type" : "string",
+                      "value" : "New item"
+                    },
+                    {
+                      "id" : "YoJL7JG_K",
+                      "type" : "string",
+                      "value" : "New item"
+                    },
+                    {
+                      "id" : "dTVqPf8jY",
+                      "type" : "string",
+                      "value" : "New item"
+                    },
+                    {
+                      "id" : "wXZaAYW_x",
+                      "type" : "string",
+                      "value" : "New item"
+                    }
+                  ]
+                },
+                "$control__customFooterString" : {
+                  "type" : "string",
+                  "value" : "Custom footer text"
+                },
+                "$control__expandable" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__hasCustomFooter" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__hasFooter" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__hasPagination" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__hasSelection" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__rowsUrl" : {
+                  "type" : "file",
+                  "value" : "data:framer\/asset-reference,yjUA1COcLMUSNm9VnfzripguH8.json?originalFilename=rows.json"
+                },
+                "$control__selectionType" : {
+                  "type" : "segmentedenum",
+                  "value" : "multi"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.75312500000000004,
+                "centerAnchorY" : 0.19333333333333333,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Datagrid.tsx_Datagrid",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "rTqNMsJu4"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 306,
+                "heightType" : 0,
+                "id" : "ZfiCmQG5h",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "h2bkMpb_d",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 43,
+                "rotation" : 0,
+                "top" : 21,
+                "visible" : true,
+                "width" : 625,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : "MacBook_1440_900_pro",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 900,
+            "heightType" : 0,
+            "id" : "h2bkMpb_d",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 1880,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "zqCsoqrAK",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 383,
+            "visible" : true,
+            "width" : 1440,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "$control__children" : {
+              "type" : "componentinstance",
+              "value" : [
+
+              ]
+            },
+            "$control__contentType" : {
+              "type" : "boolean",
+              "value" : false
+            },
+            "$control__contentTypeText" : {
+              "type" : "string",
+              "value" : "The truth seldom lies, but when it does lie it lies somewhere in between."
+            },
+            "$control__modalButtonLeft" : {
+              "type" : "string",
+              "value" : "Cancel"
+            },
+            "$control__modalButtonLeftLink" : {
+              "type" : "eventhandler",
+              "value" : [
+                {
+                  "actionIdentifier" : "framer\/useNavigate",
+                  "controls" : {
+                    "animation" : {
+                      "type" : "transition",
+                      "value" : {
+                        "damping" : 60,
+                        "delay" : 0,
+                        "ease" : [
+                          0.44,
+                          0,
+                          0.56000000000000005,
+                          1
+                        ],
+                        "mass" : 1,
+                        "stiffness" : 500,
+                        "type" : "spring"
+                      }
+                    },
+                    "appearsFrom" : {
+                      "type" : "segmentedenum",
+                      "value" : "right"
+                    },
+                    "backdropColor" : {
+                      "type" : "color",
+                      "value" : "rgba(4,4,15,.4)"
+                    },
+                    "target" : {
+                      "type" : "componentinstance"
+                    },
+                    "transition" : {
+                      "type" : "enum",
+                      "value" : "overlay"
+                    },
+                    "type" : {
+                      "type" : "segmentedenum",
+                      "value" : "previous"
+                    }
+                  },
+                  "identifier" : "ce2868c4-0d1a-41f9-b3af-e5e1a6c4eb10"
+                }
+              ]
+            },
+            "$control__modalButtonRight" : {
+              "type" : "string",
+              "value" : "run"
+            },
+            "$control__modalButtonRightLink" : {
+              "type" : "eventhandler",
+              "value" : [
+
+              ]
+            },
+            "$control__modalButtonRightstate" : {
+              "type" : "segmentedenum",
+              "value" : "info"
+            },
+            "$control__singleButton" : {
+              "type" : "boolean",
+              "value" : true
+            },
+            "$control__title" : {
+              "type" : "string",
+              "value" : "Modal title"
+            },
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.8413194444444444,
+            "centerAnchorY" : 0.082222222222222224,
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Modal.tsx_Modal",
+            "codeComponentPackageVersion" : "1.77.0",
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "o_88hVGqE"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "p9bPTQ3kg",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 3240,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "zqCsoqrAK",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : -89,
+            "visible" : true,
+            "width" : 457,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : "MacBook_1440_900_pro",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 900,
+            "heightType" : 0,
+            "id" : "rcy4c5IVc",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 3420,
+            "locked" : false,
+            "name" : "Iain",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "zqCsoqrAK",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 383,
+            "visible" : true,
+            "width" : 1440,
+            "widthType" : 0
+          }
+        ],
+        "duplicatedFrom" : null,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "homeNodeId" : "h2bkMpb_d",
+        "id" : "zqCsoqrAK",
+        "name" : "Working components",
+        "originalid" : null,
+        "parentid" : "xDZ6haG_v",
+        "visible" : false
+      },
+      {
+        "__class" : "PageNode",
+        "children" : [
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__alignment" : {
+                  "type" : "segmentedenum",
+                  "value" : "left"
+                },
+                "$control__color" : {
+                  "type" : "enum",
+                  "value" : "yellow"
+                },
+                "$control__note" : {
+                  "type" : "string",
+                  "value" : "✅\nHow do I make this SMALL"
+                },
+                "$control__onClick" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseEnter" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseLeave" : {
+                  "type" : "eventhandler"
+                },
+                "$control__preview" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__smallFont" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.10138888888888889,
+                "centerAnchorY" : 0.24833333333333332,
+                "clip" : true,
+                "codeComponentIdentifier" : "@framer\/framer.default\/.\/Notes.tsx_Notes",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "iNcBcIQOl"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 61,
+                "heightType" : 0,
+                "id" : "VHOUWRnt9",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 46,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "bhkRimuUC",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 193,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__alignment" : {
+                  "type" : "segmentedenum",
+                  "value" : "left"
+                },
+                "$control__color" : {
+                  "type" : "enum",
+                  "value" : "yellow"
+                },
+                "$control__note" : {
+                  "type" : "string",
+                  "value" : "Possibly a clarity-react bug: outline\/link success and error do not work\n\nIain: Are these properties perhaps mutually exclusive? Can a button be outlined + link + success at the same time? If not, we should hide those controls depending on the other values."
+                },
+                "$control__onClick" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseEnter" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseLeave" : {
+                  "type" : "eventhandler"
+                },
+                "$control__preview" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__smallFont" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.10138888888888889,
+                "centerAnchorY" : 0.43611111111111112,
+                "clip" : true,
+                "codeComponentIdentifier" : "@framer\/framer.default\/.\/Notes.tsx_Notes",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "iNcBcIQOl",
+                  "VHOUWRnt9"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 253,
+                "heightType" : 0,
+                "id" : "kaQEZ5ngg",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 46,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "bhkRimuUC",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 266,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__alignment" : {
+                  "type" : "segmentedenum",
+                  "value" : "left"
+                },
+                "$control__color" : {
+                  "type" : "enum",
+                  "value" : "yellow"
+                },
+                "$control__note" : {
+                  "type" : "string",
+                  "value" : "@Lachezar there's a bug in the Toggle component in Clarity-react. You have to click the toggle twice for the value to take effect, check out componentDidUpdate in the toggle component (I believe the bug is there)"
+                },
+                "$control__onClick" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseEnter" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseLeave" : {
+                  "type" : "eventhandler"
+                },
+                "$control__preview" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__smallFont" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.29305555555555557,
+                "centerAnchorY" : 0.49944444444444447,
+                "clip" : true,
+                "codeComponentIdentifier" : "@framer\/framer.default\/.\/Notes.tsx_Notes",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "iNcBcIQOl",
+                  "VHOUWRnt9",
+                  "kaQEZ5ngg"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 253,
+                "heightType" : 0,
+                "id" : "ac7JzDIua",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 322,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "bhkRimuUC",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__alignment" : {
+                  "type" : "segmentedenum",
+                  "value" : "left"
+                },
+                "$control__color" : {
+                  "type" : "enum",
+                  "value" : "yellow"
+                },
+                "$control__note" : {
+                  "type" : "string",
+                  "value" : "Need to make these as tabs with content areas\n"
+                },
+                "$control__onClick" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseEnter" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseLeave" : {
+                  "type" : "eventhandler"
+                },
+                "$control__preview" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__smallFont" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.32500000000000001,
+                "centerAnchorY" : 0.26055555555555554,
+                "clip" : true,
+                "codeComponentIdentifier" : "@framer\/framer.default\/.\/Notes.tsx_Notes",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "iNcBcIQOl",
+                  "VHOUWRnt9"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 91,
+                "heightType" : 0,
+                "id" : "DbUeKlY7w",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 322,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "bhkRimuUC",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 189,
+                "visible" : true,
+                "width" : 292,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__alignment" : {
+                  "type" : "segmentedenum",
+                  "value" : "left"
+                },
+                "$control__color" : {
+                  "type" : "enum",
+                  "value" : "yellow"
+                },
+                "$control__note" : {
+                  "type" : "string",
+                  "value" : "✅\n\nCan't update it without dragging in\/out of frame.\n\nNot interactive "
+                },
+                "$control__onClick" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseEnter" : {
+                  "type" : "eventhandler"
+                },
+                "$control__onMouseLeave" : {
+                  "type" : "eventhandler"
+                },
+                "$control__preview" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__smallFont" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.59166666666666667,
+                "centerAnchorY" : 0.245,
+                "clip" : true,
+                "codeComponentIdentifier" : "@framer\/framer.default\/.\/Notes.tsx_Notes",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "iNcBcIQOl",
+                  "VHOUWRnt9",
+                  "DbUeKlY7w"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 91,
+                "heightType" : 0,
+                "id" : "rCb5kDHMg",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "bhkRimuUC",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 442,
+                "rotation" : 0,
+                "top" : 175,
+                "visible" : true,
+                "width" : 292,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : "MacBook_1440_900_pro",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 900,
+            "heightType" : 0,
+            "id" : "bhkRimuUC",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 0,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "aF6GNQogW",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 0,
+            "visible" : true,
+            "width" : 1440,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__cardBody" : {
+                  "type" : "string",
+                  "value" : "Card content can contain text, links, images, data visualizations, lists and more."
+                },
+                "$control__cardButtonLeft" : {
+                  "type" : "string",
+                  "value" : "Left Button"
+                },
+                "$control__cardButtonLeftLink" : {
+                  "type" : "eventhandler"
+                },
+                "$control__cardButtonRight" : {
+                  "type" : "string",
+                  "value" : "Right Button"
+                },
+                "$control__cardButtonRightLink" : {
+                  "type" : "eventhandler"
+                },
+                "$control__cardHasBody" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasFooter" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasHeader" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasImage" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasTitle" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHeader" : {
+                  "type" : "string",
+                  "value" : "Card header"
+                },
+                "$control__cardImageUrl" : {
+                  "type" : "file"
+                },
+                "$control__cardIsClickable" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardTitle" : {
+                  "type" : "string",
+                  "value" : "Card title"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.15347222222222223,
+                "centerAnchorY" : 0.35999999999999999,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Card.tsx_Card",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "jKwfooKqF"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "howkSGHe3",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 121,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "ooJAnGue1",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 224,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__cardBody" : {
+                  "type" : "string",
+                  "value" : "Card content can contain text, links, images, data visualizations, lists and more."
+                },
+                "$control__cardButtonLeft" : {
+                  "type" : "string",
+                  "value" : "Left Button"
+                },
+                "$control__cardButtonLeftLink" : {
+                  "type" : "eventhandler"
+                },
+                "$control__cardButtonRight" : {
+                  "type" : "string",
+                  "value" : "Right Button"
+                },
+                "$control__cardButtonRightLink" : {
+                  "type" : "eventhandler"
+                },
+                "$control__cardHasBody" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasFooter" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasHeader" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasImage" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasTitle" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHeader" : {
+                  "type" : "string",
+                  "value" : "Card header"
+                },
+                "$control__cardImageUrl" : {
+                  "type" : "file"
+                },
+                "$control__cardIsClickable" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardTitle" : {
+                  "type" : "string",
+                  "value" : "Card title"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.37152777777777779,
+                "centerAnchorY" : 0.35999999999999999,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Card.tsx_Card",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "jKwfooKqF",
+                  "howkSGHe3"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "n76WHyqMS",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 435,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "ooJAnGue1",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 224,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__cardBody" : {
+                  "type" : "string",
+                  "value" : "Card content can contain text, links, images, data visualizations, lists and more."
+                },
+                "$control__cardButtonLeft" : {
+                  "type" : "string",
+                  "value" : "Left Button"
+                },
+                "$control__cardButtonLeftLink" : {
+                  "type" : "eventhandler"
+                },
+                "$control__cardButtonRight" : {
+                  "type" : "string",
+                  "value" : "Right Button"
+                },
+                "$control__cardButtonRightLink" : {
+                  "type" : "eventhandler"
+                },
+                "$control__cardHasBody" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasFooter" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasHeader" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasImage" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasTitle" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHeader" : {
+                  "type" : "string",
+                  "value" : "Card header"
+                },
+                "$control__cardImageUrl" : {
+                  "type" : "file"
+                },
+                "$control__cardIsClickable" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardTitle" : {
+                  "type" : "string",
+                  "value" : "Card title"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.61215277777777777,
+                "centerAnchorY" : 0.35999999999999999,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Card.tsx_Card",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : true,
+                "duplicatedFrom" : [
+                  "jKwfooKqF",
+                  "howkSGHe3",
+                  "n76WHyqMS"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "nuEilB0Bp",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 706,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "ooJAnGue1",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 224,
+                "visible" : true,
+                "width" : 351,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "hsl(0, 43%, 50%)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : "MacBook_1440_900_pro",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 900,
+            "heightType" : 0,
+            "id" : "ooJAnGue1",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 1540,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "aF6GNQogW",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 0,
+            "visible" : true,
+            "width" : 1440,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__cardBody" : {
+                  "type" : "string",
+                  "value" : "Card content can contain text, links, images, data visualizations, lists and more."
+                },
+                "$control__cardButtonLeft" : {
+                  "type" : "string",
+                  "value" : "Left Button"
+                },
+                "$control__cardButtonLeftLink" : {
+                  "type" : "eventhandler"
+                },
+                "$control__cardButtonRight" : {
+                  "type" : "string",
+                  "value" : "Right Button"
+                },
+                "$control__cardButtonRightLink" : {
+                  "type" : "eventhandler"
+                },
+                "$control__cardHasBody" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasFooter" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasHeader" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasImage" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasTitle" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHeader" : {
+                  "type" : "string",
+                  "value" : "Card header"
+                },
+                "$control__cardImageUrl" : {
+                  "type" : "file"
+                },
+                "$control__cardIsClickable" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardTitle" : {
+                  "type" : "string",
+                  "value" : "Card title"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.16388888888888889,
+                "centerAnchorY" : 0.35999999999999999,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Card.tsx_Card",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "jKwfooKqF",
+                  "howkSGHe3",
+                  "n76WHyqMS",
+                  "nuEilB0Bp"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "yOJR75Zxg",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 136,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "YrcstUIDU",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 224,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__cardBody" : {
+                  "type" : "string",
+                  "value" : "Card content can contain text, links, images, data visualizations, lists and more."
+                },
+                "$control__cardButtonLeft" : {
+                  "type" : "string",
+                  "value" : "Left Button"
+                },
+                "$control__cardButtonLeftLink" : {
+                  "type" : "eventhandler"
+                },
+                "$control__cardButtonRight" : {
+                  "type" : "string",
+                  "value" : "Right Button"
+                },
+                "$control__cardButtonRightLink" : {
+                  "type" : "eventhandler"
+                },
+                "$control__cardHasBody" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasFooter" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasHeader" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasImage" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHasTitle" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardHeader" : {
+                  "type" : "string",
+                  "value" : "Card header"
+                },
+                "$control__cardImageUrl" : {
+                  "type" : "file"
+                },
+                "$control__cardIsClickable" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__cardTitle" : {
+                  "type" : "string",
+                  "value" : "Card title"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.34791666666666665,
+                "centerAnchorY" : 0.35999999999999999,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Card.tsx_Card",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "jKwfooKqF",
+                  "howkSGHe3",
+                  "n76WHyqMS",
+                  "nuEilB0Bp"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "biKfwaOFV",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 401,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "YrcstUIDU",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 224,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "hsl(307, 71%, 35%)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : "MacBook_1440_900_pro",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 900,
+            "heightType" : 0,
+            "id" : "YrcstUIDU",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 3080,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "aF6GNQogW",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 0,
+            "visible" : true,
+            "width" : 1440,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : "MacBook_1440_900_pro",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 900,
+            "heightType" : 0,
+            "id" : "N0HW7NCFu",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 4620,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "aF6GNQogW",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 0,
+            "visible" : true,
+            "width" : 1440,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : "MacBook_1440_900_pro",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 900,
+            "heightType" : 0,
+            "id" : "j51k78Yl1",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 6160,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "aF6GNQogW",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 0,
+            "visible" : true,
+            "width" : 1440,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__disabledTabs" : {
+                  "type" : "string",
+                  "value" : ""
+                },
+                "$control__overflowTabsFrom" : {
+                  "type" : "number",
+                  "value" : 3
+                },
+                "$control__selectedTab" : {
+                  "type" : "number",
+                  "value" : 1
+                },
+                "$control__tabContent" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "V_mTRcUKG",
+                      "type" : "componentinstance",
+                      "value" : "ooJAnGue1"
+                    },
+                    {
+                      "id" : "S1ybVC7g5",
+                      "type" : "componentinstance",
+                      "value" : "YrcstUIDU"
+                    }
+                  ]
+                },
+                "$control__tabDisabled" : {
+                  "type" : "array"
+                },
+                "$control__tabOrientation" : {
+                  "type" : "enum",
+                  "value" : "horizontal"
+                },
+                "$control__tabsArray" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "tS5R1EA6O",
+                      "type" : "string",
+                      "value" : "Default tab"
+                    },
+                    {
+                      "id" : "dEXjfWhv_",
+                      "type" : "string",
+                      "value" : "dsda"
+                    },
+                    {
+                      "id" : "w2e3HdEem",
+                      "type" : "string",
+                      "value" : "Tab dsda"
+                    }
+                  ]
+                },
+                "$control__tabsContentArray" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "s3CufcPIT",
+                      "type" : "componentinstance",
+                      "value" : "j51k78Yl1"
+                    },
+                    {
+                      "id" : "YLhaEF9FY",
+                      "type" : "componentinstance",
+                      "value" : "YrcstUIDU"
+                    },
+                    {
+                      "id" : "eKXRw0Q1k",
+                      "type" : "componentinstance",
+                      "value" : "N0HW7NCFu"
+                    }
+                  ]
+                },
+                "$control__tabTitles" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "oIxfpF3zj",
+                      "type" : "string",
+                      "value" : "Tab 1"
+                    },
+                    {
+                      "id" : "pVYG0mFlp",
+                      "type" : "string",
+                      "value" : "Tab name"
+                    },
+                    {
+                      "id" : "pRhvP2Jza",
+                      "type" : "string",
+                      "value" : "Title"
+                    }
+                  ]
+                },
+                "aspectRatio" : null,
+                "bottom" : 209,
+                "centerAnchorX" : 0.5,
+                "centerAnchorY" : 0.4748263888888889,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Tabs.tsx_Tabs",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : true,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "j_theHPb1"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 792,
+                "heightType" : 0,
+                "id" : "AIa6Qiovq",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 0,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "hZMVJNzsy",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 0,
+                "rotation" : 0,
+                "top" : 151,
+                "visible" : true,
+                "width" : 1692,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 1152,
+            "heightType" : 0,
+            "id" : "hZMVJNzsy",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 1977,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "aF6GNQogW",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : -1660,
+            "visible" : true,
+            "width" : 1692,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__buttons" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "tBy2IqSxi",
+                      "type" : "string",
+                      "value" : "Button 1"
+                    },
+                    {
+                      "id" : "bkHTKAtDP",
+                      "type" : "string",
+                      "value" : "Button 2"
+                    },
+                    {
+                      "id" : "uZBWISUEV",
+                      "type" : "string",
+                      "value" : "Button 3"
+                    }
+                  ]
+                },
+                "$control__selected" : {
+                  "type" : "number",
+                  "value" : 1
+                },
+                "$control__selectedTab" : {
+                  "type" : "number",
+                  "value" : 1
+                },
+                "$control__size" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__tabContent" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "AdbEDzVJt",
+                      "type" : "componentinstance",
+                      "value" : "ooJAnGue1"
+                    },
+                    {
+                      "id" : "N50SkHGj8",
+                      "type" : "componentinstance",
+                      "value" : "YrcstUIDU"
+                    }
+                  ]
+                },
+                "$control__titles" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "cXKRxaajI",
+                      "type" : "string",
+                      "value" : "Button 1"
+                    },
+                    {
+                      "id" : "UNj49NBzh",
+                      "type" : "string",
+                      "value" : "Button 2"
+                    },
+                    {
+                      "id" : "DSRIoI7TB",
+                      "type" : "string",
+                      "value" : "Button 3"
+                    }
+                  ]
+                },
+                "aspectRatio" : null,
+                "bottom" : 39,
+                "centerAnchorX" : 0.5,
+                "centerAnchorY" : 0.5,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/ButtonGroupTabs.tsx_ButtonGroupTabs",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "oAUkbI9Ef"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 703,
+                "heightType" : 0,
+                "id" : "lJwuwr1ti",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 150,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "M65t9TB52",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 150,
+                "rotation" : 0,
+                "top" : 39,
+                "visible" : true,
+                "width" : 1294,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 781,
+            "heightType" : 0,
+            "id" : "M65t9TB52",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : -69,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "aF6GNQogW",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : -1084,
+            "visible" : true,
+            "width" : 1594,
+            "widthType" : 0
+          }
+        ],
+        "duplicatedFrom" : null,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "homeNodeId" : "bhkRimuUC",
+        "id" : "aF6GNQogW",
+        "name" : "Do not work properly",
+        "originalid" : null,
+        "parentid" : "xDZ6haG_v",
+        "visible" : false
+      }
+    ],
+    "disableBackdropFilters" : true,
+    "duplicatedFrom" : null,
+    "id" : "xDZ6haG_v",
+    "name" : null,
+    "originalid" : null,
+    "parentid" : null,
+    "tokens" : {
+
+    },
+    "tokensIndex" : [
+
+    ],
+    "visible" : false
+  },
+  "version" : 74
+}
