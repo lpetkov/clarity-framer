@@ -2,7 +2,7 @@ import * as React from "react"
 import { Frame, addPropertyControls, ControlType } from "framer"
 import { Accordion as Accordion_ } from "../../../clarity-react/dist/accordian/Accordion"
 import { placeholderStyle } from "./utils/placeholder"
-;``
+
 export function Accordion(props) {
     const { items, itemsContent, expandedItems, width, height } = props
     const content = React.useMemo(() => {
