@@ -8,23 +8,7 @@ import {
     //@ts-ignore
 } from "../../../clarity-react/dist/tabs"
 import { useManagedState } from "./utils/useManagedState"
-
-const instructionsStyle: React.CSSProperties = {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    flexDirection: "column",
-    width: "100%",
-    height: "100%",
-    fontSize: 13,
-    fontWeight: 500,
-    textAlign: "center",
-    color: "#bb88ff",
-    backgroundColor: "#2f2546",
-    border: "4px solid #8855ff",
-    padding: 16,
-    overflow: "hidden",
-}
+import { placeholderStyle } from "./utils/placeholder"
 
 export function Tabs(props) {
     const {
@@ -60,7 +44,7 @@ export function Tabs(props) {
                 })
             } else {
                 content = (
-                    <div style={{ ...instructionsStyle, height: height - 35 }}>
+                    <div style={{ ...placeholderStyle, height: height - 35 }}>
                         Connect another layer on the canvas using the property
                         controls for tab "{title}"
                     </div>

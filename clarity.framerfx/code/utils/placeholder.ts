@@ -1,0 +1,16 @@
+export const placeholderStyle: React.CSSProperties = {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection: "column",
+    width: "100%",
+    height: "100%",
+    fontSize: 13,
+    fontWeight: 500,
+    textAlign: "center",
+    color: "#bb88ff",
+    backgroundColor: "#2f2546",
+    border: "4px solid #8855ff",
+    padding: 16,
+    overflow: "hidden",
+}
