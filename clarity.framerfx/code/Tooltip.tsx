@@ -9,12 +9,7 @@ import {
 
 export function Tooltip(props) {
     return (
-        <Frame
-            width="100%"
-            height={36}
-            style={{ float: "left" }}
-            background={null}
-        >
+        <Frame width="100%" height={36} background={null}>
             <ToolTip_
                 size={props.toolTipSize}
                 direction={props.toolTipDirection}
@@ -30,6 +25,9 @@ export function Tooltip(props) {
 Tooltip.defaultProps = {
     text: "Tooltip text",
 }
+
+const sortedTooltipSizeKeys = Object.keys(ToolTipSize)
+const sortedTooltipDirectionKeys = Object.keys(ToolTipDirection)
 
 addPropertyControls(Tooltip, {
     tooltipText: {
@@ -53,25 +51,14 @@ addPropertyControls(Tooltip, {
         type: ControlType.Enum,
         title: "Size",
         defaultValue: ToolTipSize.MEDIUM,
-        options: [
-            ToolTipSize.EXTRA_SMALL,
-            ToolTipSize.SMALL,
-            ToolTipSize.MEDIUM,
-            ToolTipSize.LARGE,
-        ],
-        optionTitles: ["Extra small", "Small", "Medium", "Large"],
+        options: sortedTooltipSizeKeys.map((key) => ToolTipSize[key]),
+        optionTitles: sortedTooltipSizeKeys,
     },
     toolTipDirection: {
         type: ControlType.Enum,
         title: "Direction",
         defaultValue: ToolTipDirection.TOP_RIGHT,
-        options: [
-            ToolTipDirection.TOP_RIGHT,
-            ToolTipDirection.BOTTOM_RIGHT,
-            ToolTipDirection.TOP_LEFT,
-            ToolTipDirection.BOTTOM_LEFT,
-            ToolTipDirection.LEFT,
-        ],
-        optionTitles: ["Extra small", "Small", "Medium", "Large"],
+        options: sortedTooltipDirectionKeys.map((key) => ToolTipDirection[key]),
+        optionTitles: sortedTooltipDirectionKeys,
     },
 })
