@@ -1,59 +1,66 @@
 import * as React from "react"
-import { Frame, addPropertyControls, ControlType } from "framer"
-import { Button } from "../../../clarity-react/dist/forms/button/Button"
+import { addPropertyControls, ControlType } from "framer"
 import { ButtonGroup } from "../../../clarity-react/dist/forms/button/ButtonGroup"
 import { RadioButton } from "../../../clarity-react/dist/forms/radio/RadioButton"
-import {
-    DropdownMenu,
-    Dropdown,
-    DropdownItem,
-    MenuItemType,
-} from "../../../clarity-react/dist/forms/dropdown"
-import { useManagedState } from './utils/useManagedState'
-
-import { Icon } from "../../../clarity-react/dist/icon/Icon"
+import { useManagedState } from "./utils/useManagedState"
+import { placeholderStyle } from "./utils/placeholder"
 
 export function ButtonGroupTabs(props) {
-    const { width, selectedTab, } = props;
-    const [currentSelectedTab, setCurrentSelectedTab] = useManagedState(selectedTab)
-    let contentToRender = null;
+    const { width, selectedTab, tabContent, titles, height } = props
+    const [currentSelectedTab, setCurrentSelectedTab] = useManagedState(
+        selectedTab - 1
+    )
+    const content = React.useMemo(() => {
+        if (tabContent[currentSelectedTab]) {
+            const { props: contentProps } = tabContent[currentSelectedTab]
+            return React.cloneElement(tabContent[currentSelectedTab], {
+                style: {
+                    ...contentProps.style,
+                    position: "relative",
+                    width,
+                },
+            })
+        }
 
-    if(props.tabContent[currentSelectedTab - 1]) {
-      const { props: contentProps } = props.tabContent[currentSelectedTab - 1]
-      contentToRender = React.cloneElement(props.tabContent[currentSelectedTab - 1], {
-          style: {
-              ...contentProps.style,
-              position: "relative",
-              width
-          },
-      })
-    }
+        return (
+            <div style={{ ...placeholderStyle, height: height - 36 }}>
+                Connect another layer on the canvas using the property controls
+                for tab "{titles[currentSelectedTab]}"
+            </div>
+        )
+    }, [currentSelectedTab, tabContent, titles, height])
 
     return (
-      <div>
-          <ButtonGroup
-              className={props.size ? "btn-outline-primary btn-sm" : null}
-              defaultValue={selectedTab}
-              onChange={(e) => {
-                setCurrentSelectedTab(e.currentTarget.value)
-              }}
-          >
-              {props.titles.map((item, index) => (
-                  <RadioButton
-                      key={index}
-                      value={index + 1}
-                      label={props.titles[index]}
-                  />
-              ))}
-          </ButtonGroup>
-          {contentToRender}
-      </div>
+        <div>
+            <ButtonGroup
+                name={"framer"}
+                className={props.size ? "btn-outline-primary btn-sm" : null}
+                defaultValue={selectedTab}
+                selectedValue={currentSelectedTab + 1}
+                onChange={(e) => {
+                    setCurrentSelectedTab(
+                        parseInt(e.currentTarget.value, 10) - 1
+                    )
+                }}
+            >
+                {titles.map((item, index) => (
+                    <RadioButton
+                        key={index}
+                        value={index + 1}
+                        label={props.titles[index]}
+                    />
+                ))}
+            </ButtonGroup>
+            {content}
+        </div>
     )
 }
 
 ButtonGroupTabs.defaultProps = {
     titles: ["Button 1", "Button 2", "Button 3"],
     selectedTab: 0,
+    width: 533,
+    height: 204,
 }
 
 addPropertyControls(ButtonGroupTabs, {
