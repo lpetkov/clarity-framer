@@ -28,6 +28,8 @@ ProgressBar.defaultProps = {
     progress: 30,
     isLabeled: true,
     status: "normal",
+    width: 200,
+    height: 18,
 }
 
 addPropertyControls(ProgressBar, {
