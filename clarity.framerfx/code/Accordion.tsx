@@ -4,9 +4,9 @@ import { Accordion as Accordion_ } from "../../../clarity-react/dist/accordian/A
 import { placeholderStyle } from "./utils/placeholder"
 ;``
 export function Accordion(props) {
-    const { items, itemsContent, openItems, width, height } = props
+    const { items, itemsContent, expandedItems, width, height } = props
     const content = React.useMemo(() => {
-        const openItemIndices = openItems
+        const openItemIndices = expandedItems
             .split(",")
             .map((index) => parseInt(index, 10) - 1)
         return items.map((title, index) => {
@@ -47,7 +47,7 @@ export function Accordion(props) {
                 isOpen: openItemIndices.indexOf(index) > -1,
             }
         })
-    }, [items, width, height, openItems, itemsContent])
+    }, [items, width, height, expandedItems, itemsContent])
 
     return <Accordion_ content={content} accordionMultiPanel={true} />
 }
@@ -72,8 +72,8 @@ addPropertyControls(Accordion, {
             type: ControlType.ComponentInstance,
         },
     },
-    openItems: {
-        title: "Open",
+    expandedItems: {
+        title: "Expanded",
         type: ControlType.String,
         defaultValue: "",
         placeholder: "1,2",
