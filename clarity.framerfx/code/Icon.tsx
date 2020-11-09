@@ -1,10 +1,6 @@
 import * as React from "react"
-import { Frame, addPropertyControls, ControlType } from "framer"
-//@ts-ignore
+import { addPropertyControls, ControlType } from "framer"
 import { Icon as Icon_ } from "../../../clarity-react/dist/icon/Icon"
-
-// Open Preview: Command + P
-// Learn more: https://framer.com/api
 
 export function Icon(props) {
     let styleProp = props.style ? "" : "is-solid"
@@ -14,7 +10,9 @@ export function Icon(props) {
 
 Icon.defaultProps = {
     shape: "home",
-    size: "36",
+    size: 36,
+    width: 36,
+    height: 36,
 }
 
 addPropertyControls(Icon, {
@@ -28,11 +26,11 @@ addPropertyControls(Icon, {
         disabledTitle: "Solid",
         defaultValue: true,
     },
-
     size: {
-        type: ControlType.SegmentedEnum,
+        type: ControlType.Enum,
+        displaySegmentedControl: true,
         title: "Size",
-        defaultValue: "36",
+        defaultValue: Icon.defaultProps.size,
         options: ["12", "16", "36", "48", "64", "72"],
         optionTitles: ["12", "16", "36", "48", "64", "72"],
     },
