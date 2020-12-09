@@ -15,6 +15,7 @@ export function Icon(props) {
         style,
         status,
         size,
+        color,
         signPostContentType,
         signPostText,
         signPostContent,
@@ -52,12 +53,13 @@ export function Icon(props) {
     const icon = React.useMemo(() => {
         return (
             <Icon_
+                style={{ color }}
                 shape={shape}
                 className={`${style ? "" : "is-solid"} ${status}`}
                 size={size}
             />
         )
-    }, [shape, size, style, status])
+    }, [shape, size, style, status, color])
 
     if (props.signPost) {
         return (
@@ -89,6 +91,10 @@ addPropertyControls(Icon, {
         title: "Name",
         defaultValue: "home",
     },
+    color: {
+        type: ControlType.Color,
+        defaultValue: "#757575",
+    },
     style: {
         type: ControlType.Boolean,
         enabledTitle: "Outline",
@@ -100,8 +106,8 @@ addPropertyControls(Icon, {
         displaySegmentedControl: true,
         title: "Size",
         defaultValue: Icon.defaultProps.size,
-        options: ["12", "16", "36", "48", "64", "72"],
-        optionTitles: ["12", "16", "36", "48", "64", "72"],
+        options: ["16", "18", "24", "36", "48", "64", "72"],
+        optionTitles: ["16", "18", "24", "36", "48", "64", "72"],
     },
     status: {
         type: ControlType.Enum,

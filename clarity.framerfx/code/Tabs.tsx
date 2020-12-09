@@ -69,14 +69,16 @@ export function Tabs(props) {
     }
 
     return (
-        <Tabs_
-            tabs={tabData}
-            tabOrientation={props.tabOrientation}
-            // @ts-ignore
-            tabType={TabType.SIMPLE}
-            overflowTabsFrom={props.overflowTabsFrom}
-            onTabClick={handleTabClick}
-        />
+        <div style={{ overflow: "hidden" }}>
+            <Tabs_
+                tabs={tabData}
+                tabOrientation={props.tabOrientation}
+                // @ts-ignore
+                tabType={TabType.SIMPLE}
+                overflowTabsFrom={props.overflowTabsFrom}
+                onTabClick={handleTabClick}
+            />
+        </div>
     )
 }
 

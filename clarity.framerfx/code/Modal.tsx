@@ -162,4 +162,7 @@ addPropertyControls(Modal, {
         options: [ButtonState.SUCCESS, ButtonState.WARNING, ButtonState.INFO],
         optionTitles: ["Success", "Err", "Info"],
     },
+    onClick: {
+        type: ControlType.EventHandler,
+    },
 })

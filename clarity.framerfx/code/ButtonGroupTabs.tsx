@@ -61,6 +61,7 @@ ButtonGroupTabs.defaultProps = {
     selectedTab: 0,
     width: 533,
     height: 204,
+    size: true,
 }
 
 addPropertyControls(ButtonGroupTabs, {
@@ -93,7 +94,7 @@ addPropertyControls(ButtonGroupTabs, {
     },
     size: {
         type: ControlType.Boolean,
-        defaultValue: false,
+        defaultValue: true,
         disabledTitle: "Regular",
         enabledTitle: "Small",
     },

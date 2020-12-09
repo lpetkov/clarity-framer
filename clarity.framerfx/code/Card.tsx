@@ -36,15 +36,28 @@ export function Card(props) {
                 ) : null}
                 <CardBlock>
                     {props.cardHasTitle ? (
-                        <CardTitle>{props.cardTitle}</CardTitle>
+                        <CardTitle>
+                            {props.hasProgressBar ? (
+                                <div className="progress top">
+                                    <progress
+                                        value={props.progressBarValue}
+                                        max="100"
+                                    ></progress>
+                                </div>
+                            ) : null}
+
+                            {props.cardTitle}
+                        </CardTitle>
                     ) : null}
 
                     {props.cardHasBody ? (
-                        <CardText>
-                            Card content can contain text, links, images, data
-                            visualizations, lists and more.
-                        </CardText>
+                        <CardText>{props.cardBody}</CardText>
                     ) : null}
+                    <div style={{ position: "relative" }}>
+                        {props.cardHasFrameContent
+                            ? props.cardFrameContent
+                            : null}
+                    </div>
                 </CardBlock>
                 {props.cardHasFooter ? (
                     <CardFooter>
@@ -117,7 +130,29 @@ addPropertyControls(Card, {
     cardImageUrl: {
         type: ControlType.File,
         allowedFileTypes: ["png", "jpg", "jpeg", "svg", "gif"],
+        hidden(props) {
+            return props.cardHasImage === false
+        },
     },
+    hasProgressBar: {
+        type: ControlType.Boolean,
+        defaultValue: false,
+        title: "Progress Bar",
+        enabledTitle: "Yes",
+        disabledTitle: "No",
+    },
+    progressBarValue: {
+        type: ControlType.Number,
+        defaultValue: 25,
+        min: 0,
+        max: 100,
+        unit: "%",
+        displayStepper: false,
+        hidden(props) {
+            return props.hasProgressBar === false
+        },
+    },
+
     cardHasFooter: {
         type: ControlType.Boolean,
         title: "Footer",
@@ -125,12 +160,52 @@ addPropertyControls(Card, {
         enabledTitle: "Yes",
         disabledTitle: "No",
     },
+    cardHasFrameContent: {
+        type: ControlType.Boolean,
+        title: "Frame Content",
+    },
+    cardFrameContent: {
+        type: ControlType.ComponentInstance,
+        hidden(props) {
+            return props.cardHasFrameContent === false
+        },
+    },
 
-    cardTitle: { type: ControlType.String, title: "Title" },
-    cardHeader: { type: ControlType.String, title: "Header" },
-    cardBody: { type: ControlType.String, title: "Body text" },
-    cardButtonLeft: { type: ControlType.String, title: "Left Button " },
+    cardTitle: {
+        type: ControlType.String,
+        title: "Title",
+        hidden(props) {
+            return props.cardHasTitle === false
+        },
+    },
+    cardHeader: {
+        type: ControlType.String,
+        title: "Header",
+        hidden(props) {
+            return props.cardHasHeader === false
+        },
+    },
+    cardBody: {
+        type: ControlType.String,
+        title: "Body text",
+        hidden(props) {
+            return props.cardHasBody === false
+        },
+    },
+    cardButtonLeft: {
+        type: ControlType.String,
+        title: "Left Button ",
+        hidden(props) {
+            return props.cardHasFooter === false
+        },
+    },
     cardButtonLeftLink: { type: ControlType.EventHandler },
-    cardButtonRight: { type: ControlType.String, title: "Right Button" },
+    cardButtonRight: {
+        type: ControlType.String,
+        title: "Right Button",
+        hidden(props) {
+            return props.cardHasFooter === false
+        },
+    },
     cardButtonRightLink: { type: ControlType.EventHandler },
 })

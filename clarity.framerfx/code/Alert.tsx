@@ -12,25 +12,47 @@ import { Icon } from "../../../clarity-react/dist/icon/Icon"
 import { Button } from "./Button"
 
 export function Alert(props) {
+    const [isOpen, setIsOpen] = React.useState(true)
     const { messagesInAlert, ...rest } = props
 
     let alertSize = props.alertSize ? null : AlertSize.COMPACT
     let alertAppLevel = props.alertAppLevel ? null : AlertLevel.APP
     //TODO expose <AlertItem> icons through the prop controls
 
+    const handleClick = (e, index) => {
+        e.preventDefault()
+        if (props[`onLinkClick${index + 1}`]) {
+            props[`onLinkClick${index + 1}`]()
+        }
+    }
+
+    const handleOnClose = () => {
+        setIsOpen(false)
+    }
+    if (!isOpen) {
+        return null
+    }
     return (
         <Alert_
             width={400}
             type={props.alertType}
             closeable={props.alertIsCloseable}
             size={alertSize}
+            onClose={handleOnClose}
             level={alertAppLevel}
         >
             {messagesInAlert.map((value, index) => {
                 if (props.hasAction) {
                     return (
                         <AlertItem
-                            actions={<a href="javascript://">{props.action}</a>}
+                            actions={
+                                <a
+                                    href="javascript://"
+                                    onClick={(e) => handleClick(e, index)}
+                                >
+                                    {props.action}
+                                </a>
+                            }
                             icon={<Icon shape={props.icon} />}
                         >
                             {props.messagesInAlert[index]}
@@ -116,5 +138,20 @@ addPropertyControls(Alert, {
         type: ControlType.String,
         defaultValue: "error",
         title: "Icon",
+    },
+    onLinkClick1: {
+        type: ControlType.EventHandler,
+    },
+    onLinkClick2: {
+        type: ControlType.EventHandler,
+    },
+    onLinkClick3: {
+        type: ControlType.EventHandler,
+    },
+    onLinkClick4: {
+        type: ControlType.EventHandler,
+    },
+    onLinkClick5: {
+        type: ControlType.EventHandler,
     },
 })
