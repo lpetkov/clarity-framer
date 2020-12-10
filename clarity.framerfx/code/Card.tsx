@@ -1,10 +1,5 @@
 import * as React from "react"
-import { Component } from "react"
 import { Frame, addPropertyControls, ControlType, Stack } from "framer"
-
-//@ts-ignore
-import { MainContainer } from "../../../clarity-react/dist/layout/main-container/MainContainer"
-//@ts-ignore
 import {
     Card as Card_,
     CardFooter,
@@ -16,8 +11,12 @@ import {
 } from "../../../clarity-react/dist/cards/Card"
 
 import { Button } from "../../../clarity-react/dist/forms/button/Button"
+import { useConnectedComponentInstance } from "./utils/useConnectedComponentInstance"
 
 export function Card(props) {
+    const { cardFrameContent } = props
+    const [connectedContent] = useConnectedComponentInstance(cardFrameContent)
+
     let cardIsClickable = props.cardIsClickable
         ? "onclick - card image top"
         : null
@@ -37,26 +36,32 @@ export function Card(props) {
                 <CardBlock>
                     {props.cardHasTitle ? (
                         <CardTitle>
-                            {props.hasProgressBar ? (
+                            {props.hasProgressBar && (
                                 <div className="progress top">
                                     <progress
                                         value={props.progressBarValue}
                                         max="100"
                                     ></progress>
                                 </div>
-                            ) : null}
-
+                            )}
                             {props.cardTitle}
                         </CardTitle>
                     ) : null}
 
-                    {props.cardHasBody ? (
+                    {props.cardHasBodyText && (
                         <CardText>{props.cardBody}</CardText>
-                    ) : null}
+                    )}
                     <div style={{ position: "relative" }}>
-                        {props.cardHasFrameContent
-                            ? props.cardFrameContent
-                            : null}
+                        {!props.cardHasBodyText &&
+                            // @ts-ignore
+                            React.cloneElement(connectedContent, {
+                                width: "100%",
+                                style: {
+                                    // @ts-ignore
+                                    ...connectedContent.props.style,
+                                    position: "relative",
+                                },
+                            })}
                     </div>
                 </CardBlock>
                 {props.cardHasFooter ? (
@@ -103,15 +108,37 @@ addPropertyControls(Card, {
         type: ControlType.Boolean,
         title: "Title",
         defaultValue: true,
-        enabledTitle: "Yes",
-        disabledTitle: "No",
+        enabledTitle: "Show",
+        disabledTitle: "Hide",
     },
-    cardHasBody: {
+    cardTitle: {
+        type: ControlType.String,
+        title: "  ",
+        hidden(props) {
+            return props.cardHasTitle === false
+        },
+    },
+    cardHasBodyText: {
         type: ControlType.Boolean,
-        title: "Body Text",
-        defaultValue: true,
-        enabledTitle: "Yes",
-        disabledTitle: "No",
+        title: "Content",
+        defaultValue: false,
+        enabledTitle: "Text",
+        disabledTitle: "Frame",
+    },
+    cardBody: {
+        type: ControlType.String,
+        title: "  ",
+        displayTextArea: true,
+        hidden(props) {
+            return !props.cardHasBodyText
+        },
+    },
+    cardFrameContent: {
+        title: "  ",
+        type: ControlType.ComponentInstance,
+        hidden(props) {
+            return props.cardHasBodyText
+        },
     },
     cardIsClickable: {
         type: ControlType.Boolean,
@@ -160,36 +187,11 @@ addPropertyControls(Card, {
         enabledTitle: "Yes",
         disabledTitle: "No",
     },
-    cardHasFrameContent: {
-        type: ControlType.Boolean,
-        title: "Frame Content",
-    },
-    cardFrameContent: {
-        type: ControlType.ComponentInstance,
-        hidden(props) {
-            return props.cardHasFrameContent === false
-        },
-    },
-
-    cardTitle: {
-        type: ControlType.String,
-        title: "Title",
-        hidden(props) {
-            return props.cardHasTitle === false
-        },
-    },
     cardHeader: {
         type: ControlType.String,
         title: "Header",
         hidden(props) {
             return props.cardHasHeader === false
-        },
-    },
-    cardBody: {
-        type: ControlType.String,
-        title: "Body text",
-        hidden(props) {
-            return props.cardHasBody === false
         },
     },
     cardButtonLeft: {
