@@ -3105,7 +3105,7 @@
             "guidesY" : [
 
             ],
-            "height" : 195,
+            "height" : 436,
             "heightType" : 0,
             "id" : "uZK58nUX4",
             "intrinsicHeight" : null,
@@ -3113,7 +3113,7 @@
             "isExternalMaster" : null,
             "isMaster" : false,
             "isTarget" : false,
-            "left" : 2373,
+            "left" : 1996,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -3130,9 +3130,9 @@
             "replicaInfo" : null,
             "right" : null,
             "rotation" : 0,
-            "top" : -137,
+            "top" : -133,
             "visible" : true,
-            "width" : 197,
+            "width" : 113,
             "widthType" : 0
           },
           {
@@ -3232,6 +3232,10 @@
             },
             "$control__cardHasBody" : {
               "type" : "boolean",
+              "value" : true
+            },
+            "$control__cardHasBodyText" : {
+              "type" : "boolean",
               "value" : false
             },
             "$control__cardHasFooter" : {
@@ -3281,11 +3285,11 @@
             },
             "$control__hasProgressBar" : {
               "type" : "boolean",
-              "value" : false
+              "value" : true
             },
             "$control__progressBarValue" : {
               "type" : "number",
-              "value" : 33
+              "value" : 75
             },
             "aspectRatio" : null,
             "bottom" : null,
@@ -3310,12 +3314,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 322,
+            "height" : 552,
             "heightType" : 0,
             "id" : "Cg6f1y_dK",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 1880,
+            "left" : 1260,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -3331,9 +3335,196 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : -133,
+            "top" : -232,
             "visible" : true,
             "width" : 366,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__menuItemsArray" : {
+                  "type" : "array",
+                  "value" : [
+                    {
+                      "id" : "IvRZdSVLS",
+                      "type" : "string",
+                      "value" : "Default Link 1"
+                    },
+                    {
+                      "id" : "ptR1Iuzhw",
+                      "type" : "string",
+                      "value" : "Default Link 2"
+                    },
+                    {
+                      "id" : "Jl_aDSQHH",
+                      "type" : "string",
+                      "value" : "Default Link 3"
+                    }
+                  ]
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.33541666666666664,
+                "centerAnchorY" : 0.27111111111111114,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Wizard.tsx_Wizard",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "M_ktl682b"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "tSWCrtt9B",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 383,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "p_lic7J5Z",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 144,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : "MacBook_1440_900",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 900,
+            "heightType" : 0,
+            "id" : "p_lic7J5Z",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isScreen" : true,
+            "isTarget" : false,
+            "left" : 4885,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "zqCsoqrAK",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 464,
+            "visible" : true,
+            "width" : 1440,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "$control__theme" : {
+              "type" : "enum",
+              "value" : "lightTheme"
+            },
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.44479166666666664,
+            "centerAnchorY" : 0.0063604240282685515,
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/ThemeSwitcher.tsx_ThemeSwitcher",
+            "codeComponentPackageVersion" : "1.77.0",
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "WOpCEdjE3"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 52,
+            "heightType" : 0,
+            "id" : "xraBg5AMD",
+            "intrinsicHeight" : 52,
+            "intrinsicWidth" : 289,
+            "left" : 2324,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "zqCsoqrAK",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 303,
+            "visible" : true,
+            "width" : 289,
             "widthType" : 0
           }
         ],
@@ -3385,5 +3576,5 @@
     ],
     "visible" : false
   },
-  "version" : 74
+  "version" : 75
 }
