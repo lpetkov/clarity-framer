@@ -38,11 +38,6 @@ function getSteps(props) {
                     {stepChildComponent.props.stepContent}
                 </div>
             ),
-            stepFooter: (
-                <div style={{ position: "relative" }} key={`${i}`}>
-                    {stepChildComponent.props.stepFooter}
-                </div>
-            ),
             isStepValid: () => {
                 return false
             },
