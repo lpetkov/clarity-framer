@@ -103,7 +103,7 @@ addPropertyControls(Icon, {
     },
     size: {
         type: ControlType.Enum,
-        displaySegmentedControl: true,
+        displaySegmentedControl: false,
         title: "Size",
         defaultValue: Icon.defaultProps.size,
         options: ["16", "18", "24", "36", "48", "64", "72"],
