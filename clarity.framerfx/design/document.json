@@ -1895,9 +1895,9 @@
                   "value" : true
                 },
                 "aspectRatio" : null,
-                "bottom" : 602,
-                "centerAnchorX" : 0.44513888888888886,
-                "centerAnchorY" : 0.55936395759717317,
+                "bottom" : 607,
+                "centerAnchorX" : 0.44444444444444464,
+                "centerAnchorY" : 0.55759717314487656,
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/Icon.tsx_Icon",
                 "codeComponentPackageVersion" : "1.77.0",
@@ -1917,7 +1917,7 @@
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
                 "fillType" : "color",
-                "height" : 43,
+                "height" : 38,
                 "heightType" : 0,
                 "id" : "w7NiLk37M",
                 "intrinsicHeight" : null,
@@ -1940,7 +1940,7 @@
                 "rotation" : 0,
                 "top" : null,
                 "visible" : true,
-                "width" : 38,
+                "width" : 37,
                 "widthType" : 0
               },
               {
@@ -4556,6 +4556,157 @@
             "top" : 1999,
             "visible" : true,
             "width" : 207,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__color" : {
+                  "type" : "color",
+                  "value" : "#757575"
+                },
+                "$control__shape" : {
+                  "type" : "enum",
+                  "value" : "home"
+                },
+                "$control__signPost" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__signPostContent" : {
+                  "type" : "componentinstance"
+                },
+                "$control__signPostContentType" : {
+                  "type" : "enum",
+                  "value" : "text"
+                },
+                "$control__signPostDirection" : {
+                  "type" : "enum",
+                  "value" : "top-left"
+                },
+                "$control__signPostText" : {
+                  "type" : "string",
+                  "value" : "This is some example SignPost content"
+                },
+                "$control__size" : {
+                  "type" : "enum",
+                  "value" : "36"
+                },
+                "$control__status" : {
+                  "type" : "enum",
+                  "value" : ""
+                },
+                "$control__style" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.52298850574712663,
+                "centerAnchorY" : 0.45378151260504224,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/Icon.tsx_Icon",
+                "codeComponentPackageVersion" : "1.77.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "PVtVDHnD3",
+                  "w7NiLk37M"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 38,
+                "heightType" : 0,
+                "id" : "lMhnuHJ9G",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "KE9DkJvXh",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 64,
+                "rotation" : 0,
+                "top" : 35,
+                "visible" : true,
+                "width" : 37,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 119,
+            "heightType" : 0,
+            "id" : "KE9DkJvXh",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 3670,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "zqCsoqrAK",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 1091,
+            "visible" : true,
+            "width" : 174,
             "widthType" : 0
           }
         ],
