@@ -39,6 +39,7 @@ addPropertyControls(Tooltip, {
         title: "Body text",
         type: ControlType.String,
         defaultValue: "Body text",
+        displayTextArea: true,
     },
     iconSize: {
         type: ControlType.SegmentedEnum,
